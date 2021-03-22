@@ -19,16 +19,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prettier:check": "prettier --check **/*.{css,json,html,ts,tsx}",
+    "prettier:format": "prettier --write **/*.{css,json,html,ts,tsx}",
+    "eslint": "eslint src/**/*.ts{,x}",
     "stylelint": "stylelint **/*.css",
     "stylelint:fix": "npm run stylelint -- --fix",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -43,7 +40,19 @@
     ]
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-jest": "^24.3.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
     "stylelint": "^13.12.0",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^21.0.0"
   }
 }
