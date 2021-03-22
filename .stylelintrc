@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "selector-pseudo-element-colon-notation": "double"
+  }
+}
