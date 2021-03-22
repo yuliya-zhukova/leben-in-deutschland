@@ -5,7 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Setup
 
 ### CSS Modules in VSCode
-Follow the instruction: https://github.com/mrmckeb/typescript-plugin-css-modules#visual-studio-code
+
+- Follow the instruction: https://github.com/mrmckeb/typescript-plugin-css-modules#visual-studio-code
+- Addd `"prettier.eslintIntegration": true` to the VSCode config.
 
 ## Available Scripts
 
