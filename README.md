@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup
+
+### CSS Modules in VSCode
+Follow the instruction: https://github.com/mrmckeb/typescript-plugin-css-modules#visual-studio-code
+
 ## Available Scripts
 
 In the project directory, you can run:
