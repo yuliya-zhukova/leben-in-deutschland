@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import LebenInDeutschland from './components/LebenInDeutschland/LebenInDeutschland';
 import reportWebVitals from './reportWebVitals';
+
+import { LebenInDeutschland } from './components/LebenInDeutschland/LebenInDeutschland';
 
 ReactDOM.render(
   <React.StrictMode>

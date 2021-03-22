@@ -28,6 +28,7 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
+    "import/prefer-default-export": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
