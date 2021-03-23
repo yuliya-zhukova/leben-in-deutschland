@@ -1,9 +1,9 @@
-interface Answer {
+export interface Answer {
   id: string; // E.g.: '001-2'
   text: string;
 }
 
-interface Question {
+export interface Question {
   id: string; // E.g.: '001'
   text: string;
   answers: Answer[];
