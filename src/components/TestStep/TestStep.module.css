@@ -1,0 +1,10 @@
+.TestStepAnswerButton {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.TestStepHeader {
+  margin-bottom: 20px;
+}

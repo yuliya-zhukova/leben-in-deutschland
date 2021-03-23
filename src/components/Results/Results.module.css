@@ -1,0 +1,13 @@
+.Answer {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.AnswerCorrect {
+  background-color: rgba(0, 255, 0, 0.15);
+}
+
+.AnswerIncorrect {
+  background-color: rgba(255, 0, 0, 0.15);
+}
