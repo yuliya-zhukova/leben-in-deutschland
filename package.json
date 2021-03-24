@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "prettier:check": "prettier --check **/*.{css,json,html,ts,tsx}",
     "prettier:format": "prettier --write **/*.{css,json,html,ts,tsx}",
-    "eslint": "eslint src/**/*.ts{,x}",
+    "eslint": "eslint . --ext .ts,.tsx",
     "stylelint": "stylelint src/**/*.css",
     "stylelint:fix": "npm run stylelint -- --fix",
     "test": "react-scripts test",

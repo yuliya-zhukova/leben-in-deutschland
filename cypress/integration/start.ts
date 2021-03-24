@@ -2,10 +2,10 @@
 
 context('Start page', () => {
   beforeEach(() => {
-    cy.visit('./')
-  })
+    cy.visit('./');
+  });
 
   it('TestLebenInDeutschland component should be visible', () => {
     cy.get('[data-cy=TestLebenInDeutschland]').should('be.visible');
-  })
-})
+  });
+});
