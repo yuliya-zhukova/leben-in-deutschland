@@ -30,7 +30,7 @@ export function TestLebenInDeutschland(
   }
 
   return (
-    <div>
+    <div data-cy="TestLebenInDeutschland">
       {hasFinished() ? (
         <Results answers={userAnswers} questions={questions} />
       ) : (
