@@ -21,9 +21,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "prettier:check": "prettier --check **/*.{css,json,html,ts,tsx}",
-    "prettier:format": "prettier --write **/*.{css,json,html,ts,tsx}",
-    "eslint": "eslint . --ext .ts,.tsx",
+    "prettier:check": "prettier --check **/*.{css,eslintrc.js,json,html,ts,tsx}",
+    "prettier:format": "prettier --write **/*.{css,eslintrc.js,json,html,ts,tsx}",
+    "eslint": "eslint . --ext .js,.ts,.tsx",
     "stylelint": "stylelint src/**/*.css",
     "stylelint:fix": "npm run stylelint -- --fix",
     "test": "react-scripts test",

@@ -2,6 +2,7 @@
   "extends": "./tsconfig.json",
   "include": [
     "cypress/**/*",
-    "src/**/*"
+    "src/**/*",
+    ".eslintrc.js"
   ]
 }
