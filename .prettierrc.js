@@ -1,5 +1,7 @@
 module.exports = {
   quoteProps: 'consistent',
   singleQuote: true,
-  trailingComma: 'none'
+  trailingComma: 'none',
+  importOrder: ['^react', '^../', '^./'],
+  importOrderSeparation: true
 };

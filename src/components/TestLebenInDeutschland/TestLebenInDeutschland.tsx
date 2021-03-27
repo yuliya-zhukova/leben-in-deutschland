@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
 import { Question } from '../../data/questions';
-import { TestStep } from '../TestStep/TestStep';
 import { Results } from '../Results/Results';
+import { TestStep } from '../TestStep/TestStep';
 
 import styles from './TestLebenInDeutschland.module.css';
 
