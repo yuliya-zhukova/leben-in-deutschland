@@ -24,3 +24,8 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
+
+    - name: Integration Tests (Cypress)
+      env:
+        CYPRESS_BASE_URL: https://yuliya-zhukova.github.io/leben-in-deutschland
+      run: npm run cy:ci

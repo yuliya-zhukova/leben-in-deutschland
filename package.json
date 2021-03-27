@@ -21,12 +21,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "prettier:check": "prettier --check **/*.{css,json,html,ts,tsx}",
-    "prettier:format": "prettier --write **/*.{css,json,html,ts,tsx}",
-    "eslint": "eslint src/**/*.ts{,x}",
+    "prettier:check": "prettier --check '**/*.{css,js,json,html,ts,tsx}'",
+    "prettier:format": "prettier --write '**/*.{css,js,json,html,ts,tsx}'",
+    "eslint": "eslint . --ext .js,.ts,.tsx",
     "stylelint": "stylelint src/**/*.css",
     "stylelint:fix": "npm run stylelint -- --fix",
     "test": "react-scripts test",
+    "cy": "cypress open",
+    "cy:ci": "cypress run",
     "eject": "react-scripts eject"
   },
   "browserslist": {
@@ -45,6 +47,7 @@
     "@types/classnames": "^2.2.11",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
+    "cypress": "^6.8.0",
     "eslint": "^7.22.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.1.0",
