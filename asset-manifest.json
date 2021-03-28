@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/leben-in-deutschland/static/css/main.5db12a76.chunk.css",
-    "main.js": "/leben-in-deutschland/static/js/main.3807e0d0.chunk.js",
-    "main.js.map": "/leben-in-deutschland/static/js/main.3807e0d0.chunk.js.map",
+    "main.css": "/leben-in-deutschland/static/css/main.b9ee7430.chunk.css",
+    "main.js": "/leben-in-deutschland/static/js/main.fe46c4ce.chunk.js",
+    "main.js.map": "/leben-in-deutschland/static/js/main.fe46c4ce.chunk.js.map",
     "runtime-main.js": "/leben-in-deutschland/static/js/runtime-main.31bc4c1e.js",
     "runtime-main.js.map": "/leben-in-deutschland/static/js/runtime-main.31bc4c1e.js.map",
-    "static/js/2.e772a9c5.chunk.js": "/leben-in-deutschland/static/js/2.e772a9c5.chunk.js",
-    "static/js/2.e772a9c5.chunk.js.map": "/leben-in-deutschland/static/js/2.e772a9c5.chunk.js.map",
+    "static/js/2.91870ac2.chunk.js": "/leben-in-deutschland/static/js/2.91870ac2.chunk.js",
+    "static/js/2.91870ac2.chunk.js.map": "/leben-in-deutschland/static/js/2.91870ac2.chunk.js.map",
     "static/js/3.a181ba04.chunk.js": "/leben-in-deutschland/static/js/3.a181ba04.chunk.js",
     "static/js/3.a181ba04.chunk.js.map": "/leben-in-deutschland/static/js/3.a181ba04.chunk.js.map",
     "index.html": "/leben-in-deutschland/index.html",
-    "static/css/main.5db12a76.chunk.css.map": "/leben-in-deutschland/static/css/main.5db12a76.chunk.css.map",
-    "static/js/2.e772a9c5.chunk.js.LICENSE.txt": "/leben-in-deutschland/static/js/2.e772a9c5.chunk.js.LICENSE.txt"
+    "static/css/main.b9ee7430.chunk.css.map": "/leben-in-deutschland/static/css/main.b9ee7430.chunk.css.map",
+    "static/js/2.91870ac2.chunk.js.LICENSE.txt": "/leben-in-deutschland/static/js/2.91870ac2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.31bc4c1e.js",
-    "static/js/2.e772a9c5.chunk.js",
-    "static/css/main.5db12a76.chunk.css",
-    "static/js/main.3807e0d0.chunk.js"
+    "static/js/2.91870ac2.chunk.js",
+    "static/css/main.b9ee7430.chunk.css",
+    "static/js/main.fe46c4ce.chunk.js"
   ]
 }
