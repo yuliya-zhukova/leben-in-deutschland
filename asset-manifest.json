@@ -1,22 +1,27 @@
 {
   "files": {
     "main.css": "/leben-in-deutschland/static/css/main.b9ee7430.chunk.css",
-    "main.js": "/leben-in-deutschland/static/js/main.fe46c4ce.chunk.js",
-    "main.js.map": "/leben-in-deutschland/static/js/main.fe46c4ce.chunk.js.map",
-    "runtime-main.js": "/leben-in-deutschland/static/js/runtime-main.31bc4c1e.js",
-    "runtime-main.js.map": "/leben-in-deutschland/static/js/runtime-main.31bc4c1e.js.map",
-    "static/js/2.91870ac2.chunk.js": "/leben-in-deutschland/static/js/2.91870ac2.chunk.js",
-    "static/js/2.91870ac2.chunk.js.map": "/leben-in-deutschland/static/js/2.91870ac2.chunk.js.map",
-    "static/js/3.a181ba04.chunk.js": "/leben-in-deutschland/static/js/3.a181ba04.chunk.js",
-    "static/js/3.a181ba04.chunk.js.map": "/leben-in-deutschland/static/js/3.a181ba04.chunk.js.map",
+    "main.js": "/leben-in-deutschland/static/js/main.79dcc051.chunk.js",
+    "main.js.map": "/leben-in-deutschland/static/js/main.79dcc051.chunk.js.map",
+    "runtime-main.js": "/leben-in-deutschland/static/js/runtime-main.a93142a6.js",
+    "runtime-main.js.map": "/leben-in-deutschland/static/js/runtime-main.a93142a6.js.map",
+    "static/css/2.c46d374f.chunk.css": "/leben-in-deutschland/static/css/2.c46d374f.chunk.css",
+    "static/js/2.a3c61f30.chunk.js": "/leben-in-deutschland/static/js/2.a3c61f30.chunk.js",
+    "static/js/2.a3c61f30.chunk.js.map": "/leben-in-deutschland/static/js/2.a3c61f30.chunk.js.map",
+    "static/js/3.420774d4.chunk.js": "/leben-in-deutschland/static/js/3.420774d4.chunk.js",
+    "static/js/3.420774d4.chunk.js.map": "/leben-in-deutschland/static/js/3.420774d4.chunk.js.map",
     "index.html": "/leben-in-deutschland/index.html",
+    "static/css/2.c46d374f.chunk.css.map": "/leben-in-deutschland/static/css/2.c46d374f.chunk.css.map",
     "static/css/main.b9ee7430.chunk.css.map": "/leben-in-deutschland/static/css/main.b9ee7430.chunk.css.map",
-    "static/js/2.91870ac2.chunk.js.LICENSE.txt": "/leben-in-deutschland/static/js/2.91870ac2.chunk.js.LICENSE.txt"
+    "static/js/2.a3c61f30.chunk.js.LICENSE.txt": "/leben-in-deutschland/static/js/2.a3c61f30.chunk.js.LICENSE.txt",
+    "static/media/primereact.min.css": "/leben-in-deutschland/static/media/color.6441e63a.png",
+    "static/media/primeicons.css": "/leben-in-deutschland/static/media/primeicons.e61f3495.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.31bc4c1e.js",
-    "static/js/2.91870ac2.chunk.js",
+    "static/js/runtime-main.a93142a6.js",
+    "static/css/2.c46d374f.chunk.css",
+    "static/js/2.a3c61f30.chunk.js",
     "static/css/main.b9ee7430.chunk.css",
-    "static/js/main.fe46c4ce.chunk.js"
+    "static/js/main.79dcc051.chunk.js"
   ]
 }
