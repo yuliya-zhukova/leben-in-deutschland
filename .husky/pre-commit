@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "\n[Git pre-commit hook]\n"
+printf "\n[Git pre-commit hook]\n"
 
 npx --no-install lint-staged
