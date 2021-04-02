@@ -3,4 +3,4 @@
 
 printf "\n[Git prepare-commit-msg hook]\n"
 
-npx jira-prepare-commit-msg $1
+npx --no-install jira-prepare-commit-msg $1
