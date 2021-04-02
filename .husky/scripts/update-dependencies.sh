@@ -4,7 +4,7 @@ printf "Updating dependencies...\n"
 
 # Based on https://gist.github.com/sindresorhus/7996717
 
-changedFiles="$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)"
+changedFiles="$(git diff-tree -r --name-only --no-commit-id HEAD@{1} HEAD)"
 
 isChanged() {
 	echo "$changedFiles" | grep --quiet "$1" && return 0 || return 1
