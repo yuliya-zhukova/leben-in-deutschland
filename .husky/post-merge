@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-printf "\n[Git post-merge hook]\n"
+echo "\n[Git post-merge hook]\n"
 
 sh .husky/scripts/update-dependencies.sh

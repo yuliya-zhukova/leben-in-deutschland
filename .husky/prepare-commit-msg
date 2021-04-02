@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-printf "\n[Git prepare-commit-msg hook]\n"
+echo "\n[Git prepare-commit-msg hook]\n"
 
 npx jira-prepare-commit-msg $1
