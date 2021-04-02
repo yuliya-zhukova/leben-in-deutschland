@@ -61,6 +61,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gulp-preprocess": "^3.0.3",
     "husky": "^5.2.0",
     "jira-prepare-commit-msg": "^1.5.2",
     "lint-staged": "^10.5.4",
