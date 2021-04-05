@@ -7,29 +7,18 @@ import {
 
 import { questions } from '../../data/questions';
 import { TestLebenInDeutschland } from '../TestLebenInDeutschland/TestLebenInDeutschland';
+import { Welcome } from '../Welcome/Welcome';
 
 export function LebenInDeutschland(): JSX.Element {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div>
-        <h1>Leben in Deutschland</h1>
-
-        <Switch>
-          <Route exact path="/lorem">
-            <h2>Lorem</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              adipisci perferendis at quae illum, optio nam fugiat molestias
-              mollitia nihil corrupti, numquam laboriosam, soluta voluptatum
-              exercitationem illo id officia nobis.
-            </p>
-          </Route>
-          <Route exact path="/">
-            <TestLebenInDeutschland questions={questions} />
-          </Route>
-          <Redirect to="/" />
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path="/test">
+          <TestLebenInDeutschland questions={questions} />
+        </Route>
+        <Route exact path="/" component={Welcome} />
+        <Redirect to="/" />
+      </Switch>
     </Router>
   );
 }
