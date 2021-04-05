@@ -9,15 +9,13 @@ import { questions } from '../../data/questions';
 import { TestLebenInDeutschland } from '../TestLebenInDeutschland/TestLebenInDeutschland';
 
 export function LebenInDeutschland(): JSX.Element {
-  const appRoot = process.env.PUBLIC_URL;
-
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <h1>Leben in Deutschland</h1>
 
         <Switch>
-          <Route path={`${appRoot}/lorem`}>
+          <Route exact path="/lorem">
             <h2>Lorem</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
@@ -26,10 +24,10 @@ export function LebenInDeutschland(): JSX.Element {
               exercitationem illo id officia nobis.
             </p>
           </Route>
-          <Route exact path={appRoot}>
+          <Route exact path="/">
             <TestLebenInDeutschland questions={questions} />
           </Route>
-          <Redirect to={appRoot} />
+          <Redirect to="/" />
         </Switch>
       </div>
     </Router>
