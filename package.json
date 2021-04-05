@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "prettier:check": "prettier --check '**/*.{css,js,json,html,ts,tsx}'",
     "prettier:format": "prettier --write '**/*.{css,js,json,html,ts,tsx}'",
     "eslint": "eslint . --ext .js,.ts,.tsx",
