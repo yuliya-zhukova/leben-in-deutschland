@@ -15,7 +15,7 @@ export function Results(props: ResultsProps): JSX.Element {
   const { answers, questions } = props;
 
   return (
-    <div>
+    <div data-cy="Results">
       {questions.map(
         (question: Question): JSX.Element => {
           const isAnswerCorrect = answers.includes(question.correctAnswerId);
@@ -25,13 +25,19 @@ export function Results(props: ResultsProps): JSX.Element {
           });
 
           return (
-            <div key={question.id} className={answerClass}>
+            <div
+              key={question.id}
+              className={answerClass}
+              data-cy="Results__item"
+            >
               {question.id} — {question.text}
             </div>
           );
         }
       )}
-      <Link to="/">Start again</Link>
+      <Link to="/" data-cy="Results__start-again-link">
+        Start again
+      </Link>
     </div>
   );
 }
