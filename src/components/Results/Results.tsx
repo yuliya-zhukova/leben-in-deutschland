@@ -1,5 +1,7 @@
 import classNames from 'classnames';
 
+import { Link } from 'react-router-dom';
+
 import { Question } from '../../data/questions';
 
 import styles from './Results.module.css';
@@ -29,6 +31,7 @@ export function Results(props: ResultsProps): JSX.Element {
           );
         }
       )}
+      <Link to="/">Start again</Link>
     </div>
   );
 }
