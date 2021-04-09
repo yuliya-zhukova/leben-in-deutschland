@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/leben-in-deutschland/static/css/main.b9ee7430.chunk.css",
-    "main.js": "/leben-in-deutschland/static/js/main.185b12f0.chunk.js",
-    "main.js.map": "/leben-in-deutschland/static/js/main.185b12f0.chunk.js.map",
+    "main.js": "/leben-in-deutschland/static/js/main.0de91106.chunk.js",
+    "main.js.map": "/leben-in-deutschland/static/js/main.0de91106.chunk.js.map",
     "runtime-main.js": "/leben-in-deutschland/static/js/runtime-main.789955a8.js",
     "runtime-main.js.map": "/leben-in-deutschland/static/js/runtime-main.789955a8.js.map",
     "static/css/2.c46d374f.chunk.css": "/leben-in-deutschland/static/css/2.c46d374f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.c46d374f.chunk.css",
     "static/js/2.73dc5171.chunk.js",
     "static/css/main.b9ee7430.chunk.css",
-    "static/js/main.185b12f0.chunk.js"
+    "static/js/main.0de91106.chunk.js"
   ]
 }
