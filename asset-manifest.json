@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/leben-in-deutschland/static/css/main.b9ee7430.chunk.css",
-    "main.js": "/leben-in-deutschland/static/js/main.a48943c3.chunk.js",
-    "main.js.map": "/leben-in-deutschland/static/js/main.a48943c3.chunk.js.map",
+    "main.js": "/leben-in-deutschland/static/js/main.185b12f0.chunk.js",
+    "main.js.map": "/leben-in-deutschland/static/js/main.185b12f0.chunk.js.map",
     "runtime-main.js": "/leben-in-deutschland/static/js/runtime-main.789955a8.js",
     "runtime-main.js.map": "/leben-in-deutschland/static/js/runtime-main.789955a8.js.map",
     "static/css/2.c46d374f.chunk.css": "/leben-in-deutschland/static/css/2.c46d374f.chunk.css",
-    "static/js/2.a9b37c7a.chunk.js": "/leben-in-deutschland/static/js/2.a9b37c7a.chunk.js",
-    "static/js/2.a9b37c7a.chunk.js.map": "/leben-in-deutschland/static/js/2.a9b37c7a.chunk.js.map",
+    "static/js/2.73dc5171.chunk.js": "/leben-in-deutschland/static/js/2.73dc5171.chunk.js",
+    "static/js/2.73dc5171.chunk.js.map": "/leben-in-deutschland/static/js/2.73dc5171.chunk.js.map",
     "static/js/3.18058116.chunk.js": "/leben-in-deutschland/static/js/3.18058116.chunk.js",
     "static/js/3.18058116.chunk.js.map": "/leben-in-deutschland/static/js/3.18058116.chunk.js.map",
     "index.html": "/leben-in-deutschland/index.html",
     "static/css/2.c46d374f.chunk.css.map": "/leben-in-deutschland/static/css/2.c46d374f.chunk.css.map",
     "static/css/main.b9ee7430.chunk.css.map": "/leben-in-deutschland/static/css/main.b9ee7430.chunk.css.map",
-    "static/js/2.a9b37c7a.chunk.js.LICENSE.txt": "/leben-in-deutschland/static/js/2.a9b37c7a.chunk.js.LICENSE.txt",
+    "static/js/2.73dc5171.chunk.js.LICENSE.txt": "/leben-in-deutschland/static/js/2.73dc5171.chunk.js.LICENSE.txt",
     "static/media/primereact.min.css": "/leben-in-deutschland/static/media/color.6441e63a.png",
     "static/media/primeicons.css": "/leben-in-deutschland/static/media/primeicons.e61f3495.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.789955a8.js",
     "static/css/2.c46d374f.chunk.css",
-    "static/js/2.a9b37c7a.chunk.js",
+    "static/js/2.73dc5171.chunk.js",
     "static/css/main.b9ee7430.chunk.css",
-    "static/js/main.a48943c3.chunk.js"
+    "static/js/main.185b12f0.chunk.js"
   ]
 }
