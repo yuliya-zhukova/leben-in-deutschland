@@ -11,7 +11,7 @@ export function TestStep(props: TestStepProps): JSX.Element {
   const { question, onAnswer } = props;
 
   return (
-    <div>
+    <div data-cy="TestStep">
       <div className={styles.TestStepHeader}>
         {question.id} — {question.text}
       </div>
@@ -22,6 +22,7 @@ export function TestStep(props: TestStepProps): JSX.Element {
             key={answer.id}
             className={styles.TestStepAnswerButton}
             onClick={() => onAnswer(answer.id)}
+            data-cy="TestStep__answer"
           >
             {answer.text}
           </button>

@@ -17,6 +17,7 @@
     "primereact": "^6.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-transition-group": "^4.4.1",
     "typescript": "^4.2.3",
@@ -24,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "prettier:check": "prettier --check '**/*.{css,js,json,html,ts,tsx}'",
     "prettier:format": "prettier --write '**/*.{css,js,json,html,ts,tsx}'",
     "eslint": "eslint . --ext .js,.ts,.tsx",
@@ -51,9 +52,10 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^2.0.1",
     "@types/classnames": "^2.2.11",
+    "@types/react-router-dom": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
-    "cypress": "^6.8.0",
+    "cypress": "^7.0.1",
     "eslint": "^7.22.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.1.0",
