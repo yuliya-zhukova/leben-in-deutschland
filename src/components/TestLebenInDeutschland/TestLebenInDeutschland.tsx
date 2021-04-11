@@ -1,10 +1,10 @@
+import { ProgressBar } from 'primereact/progressbar';
+
 import { useState } from 'react';
 
 import { Question } from '../../data/questions';
 import { Results } from '../Results/Results';
 import { TestStep } from '../TestStep/TestStep';
-
-import styles from './TestLebenInDeutschland.module.css';
 
 interface TestLebenInDeutschlandProps {
   questions: Question[];
@@ -29,15 +29,24 @@ export function TestLebenInDeutschland(
     }
   }
 
+  const displayValueTemplate = (value: number) => {
+    return (
+      <>
+        {(value * 5) / 100}/<b>5</b>
+      </>
+    );
+  };
+
   return (
-    <div data-cy="TestLebenInDeutschland">
+    <div className="lid-container" data-cy="TestLebenInDeutschland">
       {hasFinished() ? (
         <Results answers={userAnswers} questions={questions} />
       ) : (
         <>
-          <div className={styles.TestLebenInDeutschlandProgress}>
-            Step {step + 1}/{questions.length}
-          </div>
+          <ProgressBar
+            value={(step * 100) / 5}
+            displayValueTemplate={displayValueTemplate}
+          />
           <TestStep question={questions[step]} onAnswer={handleAnswer} />
         </>
       )}

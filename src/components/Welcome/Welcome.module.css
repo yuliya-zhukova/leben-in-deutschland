@@ -1,0 +1,17 @@
+.Welcome {
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.6em;
+}
+
+.main {
+  margin-bottom: 150px;
+}
+
+.startButton {
+  padding-left: 50px;
+  padding-right: 50px;
+}

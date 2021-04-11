@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import { Button } from 'primereact/button';
 
 import { Link } from 'react-router-dom';
 
@@ -35,8 +36,16 @@ export function Results(props: ResultsProps): JSX.Element {
           );
         }
       )}
-      <Link to="/" data-cy="Results__start-again-link">
-        Start again
+      <br />
+      <Link
+        to="/"
+        data-cy="Results__start-again-link"
+        className="lid-buttonAsLink"
+      >
+        <Button
+          label="Start again"
+          className="p-button-rounded lid-buttonAsLink"
+        />
       </Link>
     </div>
   );
